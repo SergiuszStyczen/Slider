@@ -9,10 +9,10 @@ function slide(x){
     currentImage.src = "img/img" + imgCount + ".jpg";
 }
 
-window.setInterval(function loadSlide(){
+/*window.setInterval(function loadSlide(){
     var currentImage = document.getElementById('img');
     imgCount = imgCount + 1;
     if(imgCount > total){imgCount = 1}
     if(imgCount < 1){imgCount = total}
     currentImage.src = "img/img" + imgCount + ".jpg";
-}, 3000);
+}, 3000);*/
